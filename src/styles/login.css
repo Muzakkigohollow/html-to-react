@@ -1,0 +1,119 @@
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.kkl {
+    position: relative;
+    width: 400px;
+    height: 480px;
+    background: #CECECE;
+    border-radius: 50px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.kkj {
+    position: absolute;
+    width: 400px;
+    height: 480px;
+    left: 35px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.login-container {
+    text-align: center;
+}
+
+.login-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.login-subtitle {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.login-label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.login-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 14px;
+    background-color: #f2f2f2;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.login-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.forgot-password, .remember-me {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.forgot-password:hover, .remember-me:hover {
+    text-decoration: underline;
+}
+
+.login-social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,71 @@
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .registerkkl {
+    position: absolute;
+    width: 27rem;
+    height: 32rem;
+    left: 400px;
+    top: 70px;
+    background: #CECECE;
+    border-radius: 80px;
+  }
+  
+  .registerkkj {
+    position: absolute;
+    width: 27rem;
+    height: 32rem;
+    left: 35px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 80px;
+  }
+  
+  .registerregister {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+  }
+  
+  .registertext {
+    font-family: sans-serif;
+    font-size: small;
+  }
+  
+  .id, .id2, .id3 {
+    border: none;
+    border-bottom: 3px solid black;
+    width: 53vh;
+    font-size: 16px;
+  }
+  
+  .name, .name2, .name3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .registerform {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    font-size: medium;
+  }
+  
+  .registercheckbox-group {
+    margin-bottom: 20px;
+  }
+  
+  .registerregister-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
